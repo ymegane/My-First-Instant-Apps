@@ -10,15 +10,10 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
 
-                <data
-                    android:host="android.ymegane.github.com"
-                    android:pathPattern="/hello"
-                    android:scheme="https"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:pathPattern="/hello" />
+                <data android:host="android.ymegane.github.com" />
             </intent-filter>
         </activity>
     </application>
